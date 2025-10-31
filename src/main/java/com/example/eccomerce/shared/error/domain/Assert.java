@@ -5,6 +5,8 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Stream;
+
+//Xử lí các lỗi nghiệp vụ :Sản phẩm không thể giảm giá âm, ngày kết thúc < ngày bắt đầu, màu không hợp lệ,...
 public final class Assert {
 
     private Assert() {}
